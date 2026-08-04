@@ -113,4 +113,12 @@ and really obvious at full resolution.
 
 ---
 
+## Want to actually build one?
+
+This file explains what I use. The [Reel Starter Kit](reel-starter-kit.md) gives you the stuff to
+copy: the prompt that writes the script, the voiceover word budget, and a working template you can
+render today.
+
+---
+
 *More stuff like this at @theprocrastihacker. Daily tech and AI, minus the jargon.*
