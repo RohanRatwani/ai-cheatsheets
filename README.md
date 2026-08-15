@@ -14,6 +14,7 @@ If you commented on one and got sent here, the file you want is below 👇
 | [Context Window Cheatsheet](jar-context-window-cheatsheet.md) | Why your AI gets dumber in long chats, and 6 ways to fix it |
 | [My Reel Setup](stack-reel-setup.md) | Every tool I use to make these videos, and what each one costs (spoiler: nothing) |
 | [Reel Starter Kit](reel-starter-kit.md) | The prompts and a working template, so you can make one yourself |
+| [The Project Graveyard](project-graveyard.md) | 41 side projects, 3 that worked, and an honest list of why the rest died |
 
 ---
 
