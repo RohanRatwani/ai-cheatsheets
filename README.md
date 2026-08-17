@@ -16,6 +16,12 @@ If you commented on one and got sent here, the file you want is below 👇
 | [Reel Starter Kit](reel-starter-kit.md) | The prompts and a working template, so you can make one yourself |
 | [The Project Graveyard](project-graveyard.md) | 41 side projects, 3 that worked, and an honest list of why the rest died |
 
+## The tool itself
+
+The reel pipeline is now a real Claude Code skill, with the code, two render-ready templates and
+every gotcha written down: **[reel-engine](https://github.com/RohanRatwani/reel-engine)**. MIT, free,
+no API keys.
+
 ---
 
 ## Who this is for

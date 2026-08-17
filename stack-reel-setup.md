@@ -191,11 +191,33 @@ are already watching, and if they have not, they were never your audience.
 
 ---
 
-## Want to actually build one?
+## I packaged the whole thing up
 
-This file explains what I use. The [Reel Starter Kit](reel-starter-kit.md) gives you the stuff to
-copy: the prompt that writes the script, the voiceover word budget, and a working template you can
-render today.
+Everything above, as actual working code:
+**[github.com/RohanRatwani/reel-engine](https://github.com/RohanRatwani/reel-engine)**
+
+It is a Claude Code skill. Clone it into your skills folder, ask for a reel, and it runs the
+pipeline. MIT licensed, take whatever you want from it.
+
+```bash
+git clone https://github.com/RohanRatwani/reel-engine .claude/skills/reel-engine
+```
+
+What is in there:
+
+- **The audio fix as one command.** `vo-clean.mjs` does the whole two pass chain above for you
+- **`conform-footage.mjs`** detects HDR, tone maps it, and refuses to crop. It also tells you when
+  your footage cannot carry a close up
+- **Two render ready templates.** A single clip loop and the red green checklist, both lint clean
+- **`clip-finder.mjs`** takes a ten minute recording and hands you ranked clip candidates with
+  timestamps, so you stop scrubbing a timeline looking for the good part
+- **Local Whisper** for word level caption timing
+- **Every gotcha written down**, including the ones that shipped broken videos before I caught them
+
+No API keys, nothing to sign up for, no footage of mine in there.
+
+Still want just the copy paste version? The [Reel Starter Kit](reel-starter-kit.md) has the prompt
+that writes the script, the voiceover word budget, and a template.
 
 ---
 
